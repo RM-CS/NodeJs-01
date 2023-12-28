@@ -1,0 +1,47 @@
+// Commands
+
+-----1-----
+npm init
+
+package name: api
+version: (1.0.0) //might differ
+description: api creation
+entry point: (server.js)
+test commands:          // leave empty for now
+git repository:         // your repository name or if no repository leave empty
+keywords: api
+author: RMCS        //your name
+license: (ISC)
+
+Is this OK? y
+
+-----2-----
+code .  // to open the vs code
+
+// Note:- If you download the zip from then no need to install all module just execute
+-----3-----
+npm i update // This command will automatically update the modules
+
+// Installing the modules of node js which helps to create a API.
+
+-----4-----
+npm i mongoose 
+
+-----5-----
+npm i cors
+
+-----6-----
+npm i body-parser
+
+-----7-----
+npm i express
+
+-----8-----
+npm i promise
+
+-----9-----
+npm install --save-dev nodemon
+
+// After server.js code, execute
+-----10-----
+nodemon server.js
